@@ -1,0 +1,7 @@
+MOV BEN , 24
+MOV AYB , 24
+CMP BEN , AYB
+JL label
+MOV AYB , 5
+label: ADD AYB , BEN
+MOV [10] , AYB
